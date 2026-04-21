@@ -735,5 +735,10 @@ def predict(n_clicks, dew, humidity, wind, visibility, pressure, hour, month, co
         return html.Div(f"Forecast engine failure: {str(e)}", className="error-msg")
 
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8050)),
+        debug=False
+    )
