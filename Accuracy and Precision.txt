@@ -1,0 +1,43 @@
+Temperature MAE: 0.0765043203992501
+Temperature RMSE: 0.09339771879070816
+Visibility
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94      1601
+           1       0.38      0.36      0.37       156
+
+    accuracy                           0.89      1757
+   macro avg       0.66      0.65      0.66      1757
+weighted avg       0.89      0.89      0.89      1757
+
+Visibility ROC‑AUC: 0.8731361809125707
+
+Rain Occurrence 
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98      1661
+           1       0.69      0.88      0.77        96
+
+    accuracy                           0.97      1757
+   macro avg       0.84      0.93      0.88      1757
+weighted avg       0.98      0.97      0.97      1757
+
+Snow Occurrence 
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97      1588
+           1       0.83      0.51      0.63       169
+
+    accuracy                           0.94      1757
+   macro avg       0.89      0.75      0.80      1757
+weighted avg       0.94      0.94      0.94      1757
+
+
+Wind Speed_km/h MAE: 0.7843771117947085
+Press_kPa MAE: 0.8448651085509329
+
+
+
+
+
+
